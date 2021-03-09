@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand fixed-top" style="background: rgb(69, 69, 233)">
+<nav class="navbar navbar-expand fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <div class="logo d-none">
-                <img src="{{asset('image/logo-dna.png')}}" alt="logo" class="img-fluid logo">
+            <div class="logo d-non">
+                <img src="{{asset('image/logo-dna.png')}}" alt="logo" class="img-fluid">
             </div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dnaNav"

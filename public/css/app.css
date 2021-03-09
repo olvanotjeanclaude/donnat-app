@@ -9,6 +9,10 @@ body {
     overflow-x: hidden!important;
 }
 
+.section-content {
+    min-height: 100vh;
+}
+
 .fp-right span {
     background: orange!important;
 }
@@ -50,11 +54,11 @@ ul li a.active span:last-child {
 }
 
 .btn-contact-us:hover {
-    border: 1px solid #fff;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .navbar {
-    background: transparent;
+    z-index: 100;
 }
 
 
@@ -122,8 +126,8 @@ ul li a.active span:last-child {
 }
 
 .logo {
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
 }
 
 #homepage {
@@ -153,4 +157,9 @@ ul li a.active span:last-child {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+*:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
 }

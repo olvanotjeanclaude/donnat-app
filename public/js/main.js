@@ -1,9 +1,15 @@
 $(document).ready(() => {
     $("#fullpage").fullpage({
         scrollingSpeed: 1000,
-        autoScrolling: false,
+        autoScrolling: true,
         scrollHorizontally: true,
-        // sectionsColor: ["#e23822", "#ccc", "pink", "lightblue"],
+        // sectionsColor: [
+        //     "#e23822",
+        //     "#fff",
+        //     "rgb(69, 69, 233)",
+        //     "rgb(47, 221, 91)",
+        // ],
+
         navigation: true,
         navigationPosition: "right",
         showActiveTooltip: true,
@@ -12,8 +18,9 @@ $(document).ready(() => {
     });
 
     //animate
-    $(".toggleMenuBtn").click(handleMenu);
-    $(".close-menu").click(closeMenu);
+    // $(".toggleMenuBtn").click(handleMenu);
+    // $(".close-menu").click(closeMenu);
+
     $(".close-menu").mouseover(function() {
         $(this).addClass("fa fa-bars").removeClass("fas fa-times");
     });

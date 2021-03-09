@@ -11,13 +11,13 @@
 
    @include('header')
    <div class="container-fluid p-0">
-       @include('menu-toggle')
+       {{-- @include('menu-toggle') --}}
        <div id="fullpage">
            @include('homepage')
            @include('about-us')
-            {{-- <div class="section">Some section</div>
-            {{-- <div class="section ">Some section</div>
-            <div class="section">Some section</div> --}} 
+           @include('our-service')
+            <div class="section">Some section</div>
+            <div class="section ">Some section</div> 
         </div>
     </div>
   

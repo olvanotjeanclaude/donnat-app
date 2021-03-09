@@ -1,6 +1,6 @@
 <div class="section" id="about-us">
     <div class="container-fluid  m-lg-0 p-lg-0">
-        <div class="row  about-us-main">
+        <div class="row  section-content">
             <div class="col-lg-4">
                 <div class="left_image">
                   
@@ -8,7 +8,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="row">
-                    <div class="section-title pt-5">
+                    <div class="section-title pt-5 pt-md-0">
                         <h2 class="title-1">who</h2>
                         <h2 class="title-2">we are <span class="point">.</span></h2>
                         <h2 class="title-3">DNA Webhosting vous accompagne dans votre transformation digitale <span class="point">.</span> </h2>
@@ -17,51 +17,49 @@
 
                 <div class="about-body row">
                     <p>
-                        PULSE se positionne comme un partenaire innovant & stratégique pour vous accompagner dans votre transformation digitale.
-                        Nous privilégions l’approche participative pour faire évoluer avec vous votre idée initiale vers une solution digitale
-                        ambitieuse qui allie innovation, technologie et créativité pour développer des expériences digitales uniques et
-                        émotionnellement raisonnantes pour vos clients, vos utilisateurs et votre marque. PULSE, c’est près de 200
-                        collaborateurs passionnés et spécialisés dans les différents secteurs du digital et des services IT pour contribuer à
-                        votre réussite et votre développement.
+                        DNA Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero rerum, quia, recusandae voluptas explicabo laborum omnis est voluptates fuga quaerat, delectus vel error? Dolorum sapiente quas soluta voluptate aut fuga, quae tenetur accusamus laboriosam enim eos nisi deleniti exercitationem, ad sit! Tempore suscipit obcaecati ex? Quae nihil dicta eum voluptatibus quidem temporibus molestias laboriosam reiciendis numquam dolorum aliquid ad libero reprehenderit rem deserunt ex voluptas, dolor eveniet asperiores ut ullam!
                     </p>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero rerum, quia, recusandae voluptas explicabo
+                        laborum omnis est voluptates fuga quaerat, delectus vel error? Dolorum sapiente quas soluta voluptate aut fuga, quae
+                        tenetur accusamus laboriosam enim eos nisi deleniti exercitationem. </p>
                 </div>
-                <div class="about-footer row px-4">
-                    <div class="col-4 col-lg-2 about-footer-content">
+                <div class="about-footer row px-4 mt-3">
+                    <div class="col-4 col-md-2 about-footer-content">
                        <div class="about-footer-item aboutOrange">
                             <h5>20 ans</h5>
                             <h6>d'experience</h6>
                        </div>
                     </div>
-                    <div class="col-4 col-lg-2 about-footer-content">
+                    <div class="col-4 col-md-2 about-footer-content">
                        <div class="about-footer-item aboutBlue">
-                            <h5>20 ans</h5>
-                            <h6>d'experience</h6>
+                            <h5>200</h5>
+                            <h6>clients</h6>
                        </div>
                     </div>
-                    <div class="col-4 col-lg-2 about-footer-content">
+                    <div class="col-4 col-md-2 about-footer-content">
+                        <div class="about-footer-item aboutOrange">
+                            <h5>200</h5>
+                            <h6>Employes</h6>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 about-footer-content">
+                        <div class="about-footer-item aboutBlue">
+                            <h5>agile</h5>
+                            <h6>scrum</h6>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 about-footer-content">
                        <div class="about-footer-item aboutOrange">
-                            <h5>20 ans</h5>
-                            <h6>d'experience</h6>
+                            <h5>users</h5>
+                            <h6>centric</h6>
                        </div>
                     </div>
-                    <div class="col-4 col-lg-2 about-footer-content">
-                       <div class="about-footer-item aboutBlue">
-                            <h5>20 ans</h5>
-                            <h6>d'experience</h6>
-                       </div>
+                    <div class="col-4 col-md-2 about-footer-content">
+                        <div class="about-footer-item aboutBlue">
+                            <h5>28 ans</h5>
+                            <h6>moyenne d'age</h6>
+                        </div>
                     </div>
-                    <div class="col-4 col-lg-2 about-footer-content">
-                       <div class="about-footer-item aboutOrange">
-                            <h5>20 ans</h5>
-                            <h6>d'experience</h6>
-                       </div>
-                    </div>
-                    <div class="col-4 col-lg-2 about-footer-content">
-                       <div class="about-footer-item aboutBlue">
-                            <h5>20 ans</h5>
-                            <h6>d'experience</h6>
-                       </div>
-                    </div> 
                 </div>
             </div>
             <div class="col-lg-2">
@@ -107,9 +105,12 @@
       background-position: center center;
       background-size: cover;
     }
-   
-    #about-us h5, #about-us h6{
-        font-size: 13px;
+   #about-us h5{
+       font-size: 15px;
+       font-weight: bold;
+   }
+    #about-us h6{
+        font-size: 11px;
     }
     .aboutBlue{
         background: rgb(69, 69, 233);
@@ -140,7 +141,7 @@
         font-size: 14.5px;
         color: #fff;
         padding: .1rem 2rem 2rem .5rem;
-        margin-top: 5rem;
+        margin-top: 10rem;
     }
    
     .sidebar-right-item{
