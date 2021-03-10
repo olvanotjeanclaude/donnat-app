@@ -1,8 +1,14 @@
 $(document).ready(() => {
+    //valide form
+    var form = new Form();
+    form.setFormList("#guest", form.getGuestTypeList());
+    form.setFormList("#messageObject", form.getMessageList());
+    //fullpage
     $("#fullpage").fullpage({
         scrollingSpeed: 1000,
         autoScrolling: true,
         scrollHorizontally: true,
+
         // sectionsColor: [
         //     "#e23822",
         //     "#fff",

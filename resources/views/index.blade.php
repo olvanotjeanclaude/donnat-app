@@ -16,8 +16,7 @@
            @include('homepage')
            @include('about-us')
            @include('our-service')
-            <div class="section">Some section</div>
-            <div class="section ">Some section</div> 
+           @include('contact')
         </div>
     </div>
   

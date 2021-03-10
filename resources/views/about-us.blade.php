@@ -23,7 +23,7 @@
                         laborum omnis est voluptates fuga quaerat, delectus vel error? Dolorum sapiente quas soluta voluptate aut fuga, quae
                         tenetur accusamus laboriosam enim eos nisi deleniti exercitationem. </p>
                 </div>
-                <div class="about-footer row px-4 mt-3">
+                <div class="about-footer row px-4 my-3">
                     <div class="col-4 col-md-2 about-footer-content">
                        <div class="about-footer-item aboutOrange">
                             <h5>20 ans</h5>
@@ -77,27 +77,7 @@
 
 <style>
   
-    .title-1{
-        font-size: 4em;
-        font-weight: bold;  
-    }
-    .title-2{
-        font-size:2.25em; 
-    }
-    .title-1,.title-2{
-        color: #b22a31;
-        text-transform: uppercase
-    }
-    .title-2 .point{
-        color: rgb(69, 69, 233);
-    }
-    .title-3{
-        font-size: 1.6042em;
-        color: rgb(69, 69, 233);
-    }
-    .title-3 .point{
-        color: #b22a31;
-    }
+   
   #about-us  .left_image{
       background-image: url('image/artificial-intelligent.jpg');
       width: 100%;

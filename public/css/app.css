@@ -13,6 +13,40 @@ body {
     min-height: 100vh;
 }
 
+
+/*=====titre========*/
+
+.title-1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.title-2 {
+    font-size: 2.25em;
+}
+
+.title-1,
+.title-2 {
+    color: #b22a31;
+    text-transform: uppercase
+}
+
+.title-2 .point {
+    color: rgb(69, 69, 233);
+}
+
+.title-3 {
+    font-size: 1.6042em;
+    color: rgb(69, 69, 233);
+}
+
+.title-3 .point {
+    color: #b22a31;
+}
+
+
+/*====end titre=====*/
+
 .fp-right span {
     background: orange!important;
 }
