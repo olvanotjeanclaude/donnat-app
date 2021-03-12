@@ -9,18 +9,9 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="mt-5">
-                    <div class="section-title pt-5 pt-md-0">
-                        <h2 class="title-1">Hello</h2>
-                        <h2 class="title-2">let's work together <span class="point">.</span></h2>
-                        <h2 class="title-3">Donnez vie à vos idées<span class="point"> !</span> </h2>
-                    </div>
-                    <div class="contact-form  overflow-auto"> 
-                        @include('includes.contactForm')
-                     </div>
-                </div>
+                 @include('includes.contactForm')
             </div>
-        </div>
+        </div>  
     </div>
 </div>
 
@@ -43,7 +34,7 @@
     .contact-form{
         margin-top: 20px;
         padding-right: 50px;
-        height: 350px;
+        height: 90vh;
     }
     .contact-form .form-control,#messageObject,#guest{
         font-size: 13px;
@@ -52,13 +43,9 @@
         padding: .375rem .375rem .375rem 0;
         border-bottom: 1px solid rgba(0, 0, 0, 0.8)!important;
         border-radius: 0;
+        transition: 0.5s;
     }
     
-    .contact-form .form-control:focus,
-    #messageObject:focus,
-    #guest:focus{
-      border-bottom: 1px solid rgba(27, 27, 27, 0.2)!important;
-    }
     .contact-form .form-label{
         font-weight: 500;
         font-size: 13px;
@@ -73,7 +60,6 @@
         text-transform: uppercase;
         border: 1px solid #000;
         background-color: transparent;
-        border-radius: 0; 
         height: 36px; 
         width: 150px;
         text-align: center;
@@ -100,5 +86,21 @@
     .contact-form .form-select{
         text-transform: uppercase;
     }
+    textarea{
+        border: 1px solid #000!important;
+    }
   
+    input.form-control.error{
+        border-bottom: 1px solid #e53520!important;
+    }
+    .form-control.inputActive{
+        border-bottom: 1px solid rgba(27, 27, 27, 0.2)!important;
+    }
+    textarea.form-control.messageActive{
+        border: 1px solid rgba(86, 36, 167, 0.2)!important;
+    }
+    textarea.form-control.errorMessage{
+        border: 1px solid #e53520!important;
+    }
+    
 </style>

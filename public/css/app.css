@@ -197,3 +197,20 @@ ul li a.active span:last-child {
     outline: 0 !important;
     box-shadow: none !important;
 }
+
+
+/*=======flags on telephone =======*/
+
+.iti__flag {
+    background-image: url("../image/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .iti__flag {
+        background-image: url("../image/flags@2x.png");
+    }
+}
+
+
+/*=======end flags on telephone =======*/

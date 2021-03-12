@@ -1,8 +1,15 @@
 $(document).ready(() => {
-    //valide form
-    var form = new Form();
+    //validation form
+    var form = new FormValidation();
     form.setFormList("#guest", form.getGuestTypeList());
     form.setFormList("#messageObject", form.getMessageList());
+    $(document).on("input", "textarea,input", form.handleInputActive);
+    $("#sendMessage").click((e) => form.sendForm(e));
+
+    //flage html
+    var input = document.querySelector("#telephone");
+    window.intlTelInput(input);
+
     //fullpage
     $("#fullpage").fullpage({
         scrollingSpeed: 1000,
