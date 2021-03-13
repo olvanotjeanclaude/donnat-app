@@ -1,9 +1,9 @@
 <div class="section" id="service">
     <div class="container-fluid">
         <div class="row section-content">
-            <div class="col-lg-4">
+            <div class="col-lg-4 px-3">
                 <div class="row">
-                    <div class="section-title pt-4   pt-sm-0">
+                    <div class="section-title pt-4  pt-sm-0">
                         <h2 class="title-1">what</h2>
                         <h2 class="title-2">we do <span class="point">.</span></h2>
                         <h2 class="title-3">Building digital solutions for you. <span class="point">.</span> </h2>
@@ -23,7 +23,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 bg-dark">
+                @include('service.design')
+            </div>
+            {{-- <div class="col-lg-8">
                 <div class="row our-service-item" id="conseil">
                     <div class="col-sm-3">
                         <div class="left-service">
@@ -73,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
          
     </div>
@@ -135,4 +138,55 @@
         text-transform: uppercase;
     }
 
+</style>
+
+<style>
+    /*Service detail*/
+    .conseilDetail {
+        color: #fff;
+        min-height: 100%;
+        overflow-y: auto;
+        padding: 5vh auto;
+    }
+
+    .left-conseil,
+    .right-conseil {
+        padding-top: 15vh;
+        padding-left: 30px;
+    }
+
+    .left-conseil {
+        background: #b22a31;
+    }
+
+    .right-conseil {
+        background: rgb(15, 109, 185);
+        padding-right: 50px;
+    }
+
+    .service_title {
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    .btn-service-slide {
+        transition: 0.5s;
+        margin: 30px auto;
+    }
+
+    .btn-service-slide .fas {
+        border: 1px solid #fff;
+        padding: 10px;
+        font-size: 20px;
+        color: #fff;
+        opacity: .55;
+        font-weight: 600;
+    }
+
+    .btn-service-slide .fas:hover {
+        color: #fff;
+        opacity: 1;
+    }
+
+    /*End service detail*/
 </style>

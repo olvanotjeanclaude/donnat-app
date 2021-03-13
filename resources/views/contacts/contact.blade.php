@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                 @include('includes.contactForm')
+                 @include('contacts.contactForm')
             </div>
         </div>  
     </div>
@@ -34,10 +34,13 @@
     .contact-form{
         margin-top: 20px;
         padding-right: 50px;
+        padding-top: 2px!important;
         height: 90vh;
+        overflow-y: scroll;
     }
     .contact-form .form-control,#messageObject,#guest{
         font-size: 13px;
+        width: 80%;
         padding-right: 0!important;
         border: none;
         padding: .375rem .375rem .375rem 0;
@@ -102,5 +105,15 @@
     textarea.form-control.errorMessage{
         border: 1px solid #e53520!important;
     }
-    
+   
+    .social-media-item{
+        color: #000; 
+        border: 1px solid #000; 
+        font-size: 12px; 
+        padding: 7px;
+        margin: 10px auto; 
+   } 
+    .social-media-item:hover{ 
+        color:  #b22a31;
+    }
 </style>

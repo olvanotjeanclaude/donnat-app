@@ -1,6 +1,6 @@
-<div class="section" id="about-us">
+<div class="section" id="about-us" data-anchor="about_us">
     <div class="container-fluid  m-lg-0 p-lg-0">
-        <div class="row  section-content">
+        <div class="row section-content">
             <div class="col-lg-4">
                 <div class="left_image">
                   
@@ -76,8 +76,6 @@
 </div>
 
 <style>
-  
-   
   #about-us  .left_image{
       background-image: url('image/artificial-intelligent.jpg');
       width: 100%;

@@ -8,32 +8,25 @@ $(document).ready(() => {
 
     //flage html
     var input = document.querySelector("#telephone");
-    window.intlTelInput(input);
+    window.intlTelInput(input, {
+        initialCountry: "mg",
+    });
 
     //fullpage
     $("#fullpage").fullpage({
-        scrollingSpeed: 1000,
-        autoScrolling: true,
+        autoScrolling: false,
         scrollHorizontally: true,
-
-        // sectionsColor: [
-        //     "#e23822",
-        //     "#fff",
-        //     "rgb(69, 69, 233)",
-        //     "rgb(47, 221, 91)",
-        // ],
-
+        anchors: ["home", "about_us", "our_service", "our_contact"],
         navigation: true,
         navigationPosition: "right",
         showActiveTooltip: true,
-        navigationTooltips: ["accueil", "about us", "our services", "contact"],
+        navigationTooltips: ["Accueil", "About us", "Our services", "Contact"],
         showActiveTooltip: true,
     });
 
     //animate
     // $(".toggleMenuBtn").click(handleMenu);
     // $(".close-menu").click(closeMenu);
-
     $(".close-menu").mouseover(function() {
         $(this).addClass("fa fa-bars").removeClass("fas fa-times");
     });

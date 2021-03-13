@@ -110,6 +110,7 @@ class FormValidation {
             $(`#${currentInputId}`).removeClass("inputActive");
         }
 
+        /*remove error on type*/
         if ($(`#${currentInputId}`).hasClass("error")) {
             $(`#${currentInputId}`).removeClass("error");
         }
