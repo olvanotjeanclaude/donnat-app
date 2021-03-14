@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6 text-center mx-auto who-us">
+            <div class="col-6 text-center mx-auto who-us-text">
                 <p class="fs-5">Qui sommes-nous?</p>
             <a href="#about_us" class="text-decoration-none text-white">
                 <svg   xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-double-down"

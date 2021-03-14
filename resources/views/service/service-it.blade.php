@@ -1,4 +1,4 @@
-<div class="row small conseilDetail">
+<div class="row  small text-white px-3 section-content">
     <div class="col-lg-6 left-conseil">
         <h4 class="service_title text-uppercase">service it</h4>
         <p> Tout pour optimiser et moderniser vos environnements de travail : avec l’internationalisation des échanges (partenaires,

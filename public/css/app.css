@@ -9,12 +9,17 @@ body {
     overflow-x: hidden!important;
 }
 
+*:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
 .section-content {
     min-height: 100vh;
 }
 
 
-/*==== main=title========*/
+/*==== main title========*/
 
 .title-1 {
     font-size: 4em;
@@ -47,14 +52,17 @@ body {
 }
 
 
-/*====end main title=====*/
+/* ====right button orange */
 
 .fp-right span {
     background: orange!important;
     z-index: 10000;
 }
 
-ul li a.active span:last-child {
+
+/*===== Sidebar right======== */
+
+ul.sidebar-right li a.active span:last-child {
     background: #f2f2f2;
     border-radius: 100%;
     height: 10px;
@@ -64,7 +72,7 @@ ul li a.active span:last-child {
 }
 
 
-/*navbar*/
+/*=====Navbar===============*/
 
 .nav-link,
 .navbar .fab {
@@ -99,7 +107,7 @@ ul li a.active span:last-child {
 }
 
 
-/*menu active*/
+/*========Menu active=========*/
 
 .menu-active .btn-contact-us {
     border: 1px solid #1b1b1b;
@@ -167,6 +175,9 @@ ul li a.active span:last-child {
     height: 70px;
 }
 
+
+/* ======Homepage=========== */
+
 #homepage {
     background-attachment: fixed;
     background-size: cover;
@@ -189,20 +200,324 @@ ul li a.active span:last-child {
     -o-transform: translate(-50%);
 }
 
-.who-us {
+.who-us-text {
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-*:focus {
-    outline: 0 !important;
-    box-shadow: none !important;
+
+/* ====== About us===== */
+
+#about-us .left_image {
+    background-image: url('../image/artificial-intelligent.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+#about-us h5.redArticle {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#about-us h6.blueArticle {
+    font-size: 11px;
+}
+
+.aboutBlue {
+    background: rgb(69, 69, 233);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.aboutOrange {
+    border: 1px solid #b22a31;
+    color: #b22a31;
+}
+
+.about-footer-item {
+    margin: 1px;
+    height: 100%;
+    padding: 3px auto;
+}
+
+.about-footer-item h5.redArticle,
+.about-footer-item h6.blueArticle {
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.about-footer-content {
+    text-align: center;
+    padding: 1px;
+}
+
+.sidebar-right {
+    background: #b22a31;
+    list-style: none;
+    font-size: 14.5px;
+    color: #fff;
+    padding: .1rem 2rem 2rem .5rem;
+    margin-top: 10rem;
+}
+
+.sidebar-right-item {
+    margin-top: 10px;
 }
 
 
-/*=======flags on telephone =======*/
+/* =====our service==== */
+
+.our-service-item#conseil {
+    padding-top: 90px;
+}
+
+.our-service-item .btn-outline-light {
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    opacity: .6;
+}
+
+.our-service-item .btn-outline-light:hover {
+    opacity: 1;
+}
+
+.our-service-item {
+    position: relative;
+    padding: 2rem 1rem;
+    color: #fff;
+    z-index: 1000;
+    background-position: center;
+    background-size: cover;
+}
+
+.our-service-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 1s;
+}
+
+.left-service {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.right-service {
+    padding-right: 1.5rem;
+}
+
+#conseil {
+    background-image: url('../image/computer-1.jpg');
+}
+
+#design {
+    background-image: url('../image/computer-2.jpg');
+}
+
+#service-it {
+    background-image: url('../image/computer-3.jpeg');
+}
+
+.service-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/*Service detail*/
+
+.flexslider {
+    margin: 0;
+    border: 0;
+}
+
+.left-conseil,
+.right-conseil {
+    padding-top: 17vh;
+    padding-left: 30px;
+}
+
+.left-conseil {
+    background: #b22a31;
+}
+
+.right-conseil {
+    background: rgb(15, 109, 185);
+    padding-right: 50px;
+}
+
+.service_title {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.btn-service-slide {
+    transition: 0.5s;
+    margin: 30px auto;
+}
+
+.btn-service-slide .fas {
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    opacity: .55;
+    font-weight: 600;
+}
+
+.btn-service-slide .fas:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.service_sub_title {
+    font-size: 1rem;
+}
+
+
+/*End service detail*/
+
+.flexslider .flex-control-nav {
+    display: none;
+}
+
+
+/* ===========contact============= */
+
+.contact-background-image {
+    background-image: url('../image/contact-form-background.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.contact-us-icon {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-form {
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-top: 2px!important;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.contact-form .form-control,
+#messageObject,
+#guest {
+    font-size: 13px;
+    width: 80%;
+    padding-right: 0!important;
+    border: none;
+    padding: .375rem .375rem .375rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8)!important;
+    border-radius: 0;
+    transition: 0.5s;
+}
+
+.contact-form .form-label {
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.contact-form .star {
+    color: rgb(199, 49, 49);
+    font-size: 17px;
+}
+
+.contact-form .btn-action {
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    background-color: transparent;
+    height: 36px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #000;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+.contact-form .btn-action#cancelMessage {
+    color: #000;
+}
+
+.contact-form .btn-action#cancelMessage:hover {
+    background: #000;
+    color: #fff;
+}
+
+.contact-form #sendMessage {
+    background: #000;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.contact-form #sendMessage:hover {
+    background: #fff;
+    color: #000;
+}
+
+.contact-form .form-select {
+    text-transform: uppercase;
+}
+
+textarea {
+    border: 1px solid #000!important;
+}
+
+input.form-control.error {
+    border-bottom: 1px solid #e53520!important;
+}
+
+.form-control.inputActive {
+    border-bottom: 1px solid rgba(27, 27, 27, 0.2)!important;
+}
+
+textarea.form-control.messageActive {
+    border: 1px solid rgba(86, 36, 167, 0.2)!important;
+}
+
+textarea.form-control.errorMessage {
+    border: 1px solid #e53520!important;
+}
+
+.social-media-item {
+    color: #000;
+    border: 1px solid #000;
+    font-size: 12px;
+    padding: 7px;
+    margin: 10px auto;
+}
+
+.social-media-item:hover {
+    background: #b22a31;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+
+/*=======flags with phone number at form =======*/
 
 .iti__flag {
     background-image: url("../image/flags.png");
@@ -214,6 +529,3 @@ ul li a.active span:last-child {
         background-image: url("../image/flags@2x.png");
     }
 }
-
-
-/*=======end flags on telephone =======*/

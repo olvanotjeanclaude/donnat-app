@@ -26,38 +26,38 @@
                 <div class="about-footer row px-4 my-3">
                     <div class="col-4 col-md-2 about-footer-content">
                        <div class="about-footer-item aboutOrange">
-                            <h5>20 ans</h5>
-                            <h6>d'experience</h6>
+                            <h5 class="redArticle">20 ans</h5>
+                            <h6 class="blueArticle">d'experience</h6>
                        </div>
                     </div>
                     <div class="col-4 col-md-2 about-footer-content">
                        <div class="about-footer-item aboutBlue">
-                            <h5>200</h5>
-                            <h6>clients</h6>
+                            <h5 class="redArticle">200</h5>
+                            <h6 class="blueArticle">clients</h6>
                        </div>
                     </div>
                     <div class="col-4 col-md-2 about-footer-content">
                         <div class="about-footer-item aboutOrange">
-                            <h5>200</h5>
-                            <h6>Employes</h6>
+                            <h5 class="redArticle">200</h5>
+                            <h6 class="blueArticle">Employes</h6>
                         </div>
                     </div>
                     <div class="col-4 col-md-2 about-footer-content">
                         <div class="about-footer-item aboutBlue">
-                            <h5>agile</h5>
-                            <h6>scrum</h6>
+                            <h5 class="redArticle">agile</h5>
+                            <h6 class="blueArticle">scrum</h6>
                         </div>
                     </div>
                     <div class="col-4 col-md-2 about-footer-content">
                        <div class="about-footer-item aboutOrange">
-                            <h5>users</h5>
-                            <h6>centric</h6>
+                            <h5 class="redArticle">users</h5>
+                            <h6 class="blueArticle">centric</h6>
                        </div>
                     </div>
                     <div class="col-4 col-md-2 about-footer-content">
                         <div class="about-footer-item aboutBlue">
-                            <h5>28 ans</h5>
-                            <h6>moyenne d'age</h6>
+                            <h5 class="redArticle">28 ans</h5>
+                            <h6 class="blueArticle">moyenne d'age</h6>
                         </div>
                     </div>
                 </div>
@@ -74,55 +74,3 @@
         </div>
     </div>
 </div>
-
-<style>
-  #about-us  .left_image{
-      background-image: url('image/artificial-intelligent.jpg');
-      width: 100%;
-      height: 100%;
-      background-position: center center;
-      background-size: cover;
-    }
-   #about-us h5{
-       font-size: 15px;
-       font-weight: bold;
-   }
-    #about-us h6{
-        font-size: 11px;
-    }
-    .aboutBlue{
-        background: rgb(69, 69, 233);
-        color: #fff;
-        text-transform: uppercase;
-    }
-    .aboutOrange{
-       border: 1px solid #b22a31;
-       color: #b22a31;
-    }
-    .about-footer-item{
-        margin: 1px;
-        height: 100%;
-        padding: 3px auto;
-    }
-    .about-footer-item h5,
-    .about-footer-item h6{
-        text-transform: uppercase;
-        padding-top: 5px;
-    }
-    .about-footer-content{
-      text-align: center;
-      padding: 1px;
-    }
-    .sidebar-right{
-        background: #b22a31;
-        list-style: none;
-        font-size: 14.5px;
-        color: #fff;
-        padding: .1rem 2rem 2rem .5rem;
-        margin-top: 10rem;
-    }
-   
-    .sidebar-right-item{
-        margin-top: 10px;
-    }
-</style>

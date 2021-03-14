@@ -8,20 +8,18 @@
     @include('includes.head')
 </head>
 <body>
-    {{-- all margin left px-3 --}}
 
-   @include('includes.header')
-   <div class="container-fluid p-0">
-       {{-- @include('menu-toggle') --}}
-       <div id="fullpage">
-           @include('homepage')
-           @include('about-us')
-           @include('service.our_service')
-           @include('contacts.contact')
-        </div>
+   @include('navigation.header')
+   
+    {{-- @include('menu-toggle') --}}
+    <div id="fullpage">
+        @include('homepage')
+        @include('about-us')
+        @include('service.our_service')
+        @include('contacts.contact')
     </div>
-  
    
    @include('includes.script')
+
 </body>
 </html>

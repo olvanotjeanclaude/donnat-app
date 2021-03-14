@@ -6,10 +6,16 @@ $(document).ready(() => {
     $(document).on("input", "textarea,input", form.handleInputActive);
     $("#sendMessage").click((e) => form.sendForm(e));
 
-    //flage html
+    //flag html at contact form
     var input = document.querySelector("#telephone");
     window.intlTelInput(input, {
         initialCountry: "mg",
+    });
+
+    //slider at about us
+    $(".flexslider").flexslider({
+        animation: "slide",
+        slideshow: false,
     });
 
     //fullpage
@@ -25,8 +31,8 @@ $(document).ready(() => {
     });
 
     //animate
-    // $(".toggleMenuBtn").click(handleMenu);
-    // $(".close-menu").click(closeMenu);
+    $(".toggleMenuBtn").click(handleMenu);
+    $(".close-menu").click(closeMenu);
     $(".close-menu").mouseover(function() {
         $(this).addClass("fa fa-bars").removeClass("fas fa-times");
     });

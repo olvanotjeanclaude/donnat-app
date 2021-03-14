@@ -1,4 +1,4 @@
-<div class="row small conseilDetail">
+<div class="row  small text-white px-3 section-content">
     <div class="col-lg-6 left-conseil">
         <h4 class="service_title text-uppercase">DESIGN & DEVELOPMENT</h4>
         <p>L’écosystème digital est en pleine mutation et les rôles ont évolué : technologie et création ne font plus qu'un pour
@@ -46,10 +46,3 @@
         </p>
     </div>
 </div>
-
-<style>
-    .service_sub_title{
-        font-size: 1rem;
-    }
-
-</style>

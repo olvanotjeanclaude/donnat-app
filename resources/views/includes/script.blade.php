@@ -5,4 +5,5 @@
 <script src="{{'js/fullpage.js'}}"></script>
 <script src="{{'js/fontawesome.js'}}"></script>
 <script src="{{'js/FormValidation.js'}}"></script>
+<script src="{{'js/jquery.flexslider-min.js'}}"></script>
 <script src="{{asset('js/main.js')}}"></script>

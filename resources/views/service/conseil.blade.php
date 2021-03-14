@@ -1,4 +1,4 @@
-<div class="row conseilDetail small">
+<div class="row  small text-white bg-info section-content">
     <div class="col-lg-6 left-conseil">
         <h4 class="service_title text-uppercase">audit & conseil</h4>
         <p> PULSE s'engage aux côtés de ses clients pour les aider à faire du digital un des moteurs de leur succès
@@ -12,7 +12,7 @@
               <a href="#" class="mx-3"><i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
-    <div class="col-lg-6 right-conseil">
+    <div class="col-lg-6 right-conseil pb-5">
         <h4 class="font-weight-bold">What we do...</h4>
         <p>AUDIT : ARCHITECTURE CODE, PERFORMANCE, SÉCURITÉ/ PHP, .NET, JAVA, JAVASCRIPT CONSEIL : ANALYSE, STRATÉGIE,
             IDÉATION, BENCHMARK, WORKSHOP, AMOA, MOE, DESIGN THINKING, FONCTIONNALITÉS ET TECHNOLOGIES INNOVANTES </p>
